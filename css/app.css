@@ -1,1 +1,76 @@
+html{
+  width: 90%;
+  margin:0 auto;
+  height: 100%;
+  background-color: #b8b8b8;
+}
+header{
+  margin-bottom: 10px;
+}
+.redessociales{
+  text-align: right;
+  display: inline-table;
+  margin-top: 10%;
+}
+i{
+  color: #ffffff;
+}
+.linkedin{
+  background-color: #0077B5;
+}
+.pinterest{
+  background-color: #BD081C;
+}
+.twitter{
+  background-color: #00ACEE;
+}
+.facebook{
+  background-color: #4267B2;
+}
+.google{
+  background-color: #DC4538;
+}
+.imagenlogo{
+  width: 100%;
+}
 
+.nav{
+  background-color: #af0000;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.nav a{
+  color: #ffffff;
+}
+.nav a:hover{
+  color: #af0000;
+  background-color: #ffffff;
+
+}
+
+img[class^='estiloimg']{
+  width: 8%;
+}
+.estilopropio{
+  width: 100%;
+  margin-top: 25%;
+}
+
+table{
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+}
+/*Media query*/
+@media all and (max-width: 900px) {
+.redessociales{
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+.col-xs-3{
+  margin-top: 0%;
+}
+}
